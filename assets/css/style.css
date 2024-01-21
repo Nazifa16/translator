@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* logo */
+.logo {
+  width: 4%;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+}
+
+header {
+  background-color: rgb(27, 61, 124);
+  height: 50%;
+}
+
+main {
+  background-color: rgb(61, 96, 147);
+}
+.work-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.container {
+  width: 100%;
+  max-width: 600px;
+}
+
+.form-control {
+  height: 150px;
+}
+
+.work-area {
+  background-color: rgba(200, 237, 255, 0.225);
+}
+
+#translateTextBtn {
+  background-color: rgba(198, 176, 29, 0.895);
+  border: none;
+  font-size: 2rem;
+  margin-top: 10px;
+  border-radius: 4%;
+  color: rgb(255, 255, 255);
+}
+
+.form-label {
+  color: rgb(251, 251, 251);
+  font-size: large;
+}
+
+body {
+  overflow-x: hidden;
+}
