@@ -33,7 +33,7 @@ async function translate(sourceLang, targetLang, textToTranslate) {
     headers: {
       "content-type": "application/x-www-form-urlencoded",
       "Accept-Encoding": "application/gzip",
-      "X-RapidAPI-Key": "e0a38a886dmsh3ad40466a067a14p1e65d3jsn59767897302f",
+      "X-RapidAPI-Key": "84ecaa6701mshf2901a18afe0bdep168de6jsn854cb4cfe763",
       "X-RapidAPI-Host": "google-translate1.p.rapidapi.com",
     },
     body: new URLSearchParams({
